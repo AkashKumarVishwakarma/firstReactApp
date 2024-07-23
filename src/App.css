@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+/* .main{
+  max-width:1320px;
+  margin:auto;
+  background-color: aqua;
+} */
+.row{
+  width:1320px;
+  margin:auto;
+  display:flex;
+  flex-wrap: wrap;
+}
+.cardItems{
+  flex-basis:23%;
+  background-color: aqua;
+  margin: 1%;
+  height:200px;
+}
